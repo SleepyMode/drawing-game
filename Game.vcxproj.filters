@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\app\main.cc" />
+    <ClCompile Include="src\input\datareader.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\platform\windows\entry.h" />
+    <ClInclude Include="include\platform\windows\debug.h" />
+    <ClInclude Include="include\wrapper\windows.h" />
+    <ClInclude Include="include\platform\utils.h" />
+    <ClInclude Include="include\platform\linux\entry.h" />
+    <ClInclude Include="include\platform\unknown\entry.h" />
+    <ClInclude Include="include\platform\unknown\debug.h" />
+    <ClInclude Include="include\platform\linux\debug.h" />
+    <ClInclude Include="include\input\datareader.h" />
+    <ClInclude Include="include\networking\NetworkBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\words.txt" />
+  </ItemGroup>
+</Project>
